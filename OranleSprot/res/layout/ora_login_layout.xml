@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/ora_value_dp_20" >
+
+    <ImageView
+        android:id="@+id/ora_account_headview"
+        android:layout_width="@dimen/ora_value_dp_50"
+        android:layout_height="@dimen/ora_value_dp_50"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/ora_value_dp_50"
+        android:scaleType="fitXY"
+        android:src="@drawable/a8a" />
+
+    <EditText
+        android:id="@+id/ora_account_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ora_account_headview"
+        android:layout_marginTop="@dimen/ora_value_dp_10"
+        android:gravity="center"
+        android:hint="@string/ora_account_hint"
+        android:paddingBottom="@dimen/ora_value_dp_4"
+        android:paddingLeft="@dimen/ora_value_dp_10"
+        android:paddingRight="@dimen/ora_value_dp_10"
+        android:paddingTop="@dimen/ora_value_dp_4"
+        android:textSize="@dimen/ora_value_sp_12" />
+
+    <EditText
+        android:id="@+id/ora_password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ora_account_et"
+        android:layout_marginTop="@dimen/ora_value_dp_10"
+        android:gravity="center"
+        android:hint="@string/ora_password_hint"
+        android:inputType="textPassword"
+        android:paddingBottom="@dimen/ora_value_dp_4"
+        android:paddingLeft="@dimen/ora_value_dp_10"
+        android:paddingRight="@dimen/ora_value_dp_10"
+        android:paddingTop="@dimen/ora_value_dp_4"
+        android:textSize="@dimen/ora_value_sp_12" />
+
+    <Button
+        android:id="@+id/ora_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ora_password_et"
+        android:layout_marginTop="@dimen/ora_value_dp_10"
+        android:gravity="center"
+        android:paddingBottom="@dimen/ora_value_dp_2"
+        android:paddingLeft="@dimen/ora_value_dp_10"
+        android:paddingRight="@dimen/ora_value_dp_10"
+        android:paddingTop="@dimen/ora_value_dp_2"
+         android:textSize="@dimen/ora_value_sp_13"
+        android:text="@string/ora_login" />
+
+</RelativeLayout>

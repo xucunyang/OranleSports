@@ -1,4 +1,4 @@
-package com.oranle.sports.ui;
+package com.oranle.sports.ui.activity;
 
 import android.app.Activity;
 

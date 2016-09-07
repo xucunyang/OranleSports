@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PreferenceWithTip">
+        <attr name="tipstring" format="string"></attr>
+        <attr name="titlestring" format="string"></attr>
+    </declare-styleable>
+
+</resources>
